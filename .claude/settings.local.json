@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet new:*)",
+      "Bash(mv:*)",
+      "Bash(rmdir:*)",
+      "Bash(dotnet sln add:*)",
+      "Bash(dotnet add reference:*)",
+      "Bash(dotnet add package:*)",
+      "Bash(dotnet build)",
+      "Bash(dotnet run:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

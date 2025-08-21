@@ -24,11 +24,15 @@ MagnaPP is a web-based Planning Poker application for distributed agile teams. T
 
 ## Development Setup
 
-Since this is a greenfield project with only the PRD defined, the specific build/test commands will be established based on the chosen technology stack. When implementing:
+## Technology Stack & Commands
 
-1. Document the chosen technology stack in a README.md
-2. Update this file with specific build, test, and run commands
-3. Include any environment setup requirements
+**Backend**: .NET 9 Web API with SignalR (located in `magnapp-backend/`)
+- Build: `dotnet build`
+- Run API: `cd magnapp-backend/MagnaPP.Api && dotnet run`
+- API runs on: `http://localhost:5102`
+- Swagger docs: `http://localhost:5102/swagger`
+
+**Frontend**: Angular (to be implemented)
 
 ## Implementation Guidelines
 

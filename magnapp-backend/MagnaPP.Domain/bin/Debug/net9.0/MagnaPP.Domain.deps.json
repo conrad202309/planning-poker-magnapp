@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MagnaPP.Domain/1.0.0": {
+        "runtime": {
+          "MagnaPP.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MagnaPP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
