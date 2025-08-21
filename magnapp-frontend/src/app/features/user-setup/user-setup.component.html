@@ -1,0 +1,48 @@
+<div class="user-setup-container">
+  <mat-card class="setup-card">
+    <mat-card-header>
+      <mat-card-title>Welcome to MagnaPP Planning Poker!</mat-card-title>
+      <mat-card-subtitle>Set up your profile to join sessions</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <form [formGroup]="userSetupForm" (ngSubmit)="onSubmit()" class="setup-form">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Your Name</mat-label>
+          <input matInput 
+                 formControlName="name" 
+                 placeholder="Enter your display name"
+                 maxlength="20">
+          <mat-error *ngIf="userSetupForm.get('name')?.invalid && userSetupForm.get('name')?.touched">
+            {{ getErrorMessage('name') }}
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Choose Your Avatar</mat-label>
+          <mat-select formControlName="avatar">
+            <mat-option *ngFor="let avatar of availableAvatars" [value]="avatar">
+              <span class="avatar-option">{{ avatar }}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <div class="audio-setting">
+          <mat-checkbox formControlName="audioEnabled">
+            Enable audio notifications
+          </mat-checkbox>
+        </div>
+      </form>
+    </mat-card-content>
+
+    <mat-card-actions align="end">
+      <button mat-raised-button 
+              color="primary" 
+              type="submit"
+              (click)="onSubmit()"
+              [disabled]="userSetupForm.invalid">
+        Continue to Sessions
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
