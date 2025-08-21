@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Api\\MagnaPP.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Api\\MagnaPP.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Api\\MagnaPP.Api.csproj",
+        "projectName": "MagnaPP.Api",
+        "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Api\\MagnaPP.Api.csproj",
+        "packagesPath": "C:\\Users\\cjs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj"
+              },
+              "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\MagnaPP.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\MagnaPP.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj",
+        "projectName": "MagnaPP.Domain",
+        "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj",
+        "packagesPath": "C:\\Users\\cjs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\MagnaPP.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\MagnaPP.Infrastructure.csproj",
+        "projectName": "MagnaPP.Infrastructure",
+        "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\MagnaPP.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\cjs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\cjs\\OneDrive - Magna BC Pty Ltd\\Desktop\\PlanningPoker\\planning-poker-magnapp\\magnapp-backend\\MagnaPP.Domain\\MagnaPP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
